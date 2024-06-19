@@ -37,6 +37,5 @@ function handleCheck() {
 function handleDelete() {
     $(document).on("click",".fa-trash-alt", function(){
         $(this).parent().remove();//הסרה
-        // $(this).remove();//הסרת האייקון
     });
 }
